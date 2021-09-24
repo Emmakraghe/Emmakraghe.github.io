@@ -1,0 +1,75 @@
+<style>
+
+.header{
+    text-align: center;
+}
+              * {
+                            box-sizing: border-box;
+              }
+              ul {
+                list-style-type: none;
+                margin: 2;
+                padding: 4;
+                overflow: hidden;
+                background-color:navy;
+              }
+              
+              li {
+                float: left;
+              }
+              
+              li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+              }
+              
+              li a:hover {
+                background-color: #111;
+              }
+              </style>
+              </head>
+              <body>
+              
+              
+              body {
+                            font-family: Arial, Helvetica, serif;
+                            background-color: hsl(0, 0%, 100%); 
+              }
+
+              /* Style the header */
+              .header {
+                            padding: 30px;
+                            text-align: center;
+                            font-size: 11px;
+                            color: white;
+              }
+
+              
+              /* Style the content */
+              article {
+                            -webkit-flex: 3;
+                            -ms-flex: 3;
+                            flex: 3;
+                            background-color:lightskyblue;
+                            padding: 10px;
+              }
+
+              /* Style the footer */
+              footer {
+                            background-color:lightskyblue;
+                            padding: 10px;
+                            text-align: center;
+                            color: white;
+              }
+
+              /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+              @media (max-width: 600px) {
+                            section {
+                                          -webkit-flex-direction: column;
+                                          flex-direction: column;
+                            }
+              }
+</style>
